@@ -2,7 +2,7 @@
   display: flex;
   width: 500px;
   height: 3rem;
-  border: 1px rgb(212, 212, 212, 0.5) solid;
+  border-bottom: 1px rgb(212, 212, 212, 0.5) solid;
   font-size: 20px;
   text-align: left;
   text-indent: 10px;
@@ -10,7 +10,7 @@
 
 .listItemText {
   font-size: 18px;
-  /* width: 100%; */
+  width: 100%;
   border: none;
   height: 95%;
   margin: 0 12px 12px 18px;
