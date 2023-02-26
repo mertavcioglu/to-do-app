@@ -5,6 +5,8 @@
   font-size: 20px;
   text-align: left;
   text-indent: 10px;
+  border-bottom: 1px rgb(212, 212, 212, 0.5) solid;
+  margin-bottom: 5px;
 }
 
 .listItemText {

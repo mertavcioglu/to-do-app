@@ -65,9 +65,9 @@
 @media (max-width: 1024px) {
   .footerContainer {
     height: 2.8rem;
-    border-top: 1px rgb(212, 212, 212, 0.5) solid;
+    border: none;
+    margin-top: 5px;
   }
-
   .footerText {
     margin-top: 45px;
   }
