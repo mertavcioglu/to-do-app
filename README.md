@@ -6,6 +6,7 @@ You can do the following commands in this app:
 
 - Add a new item
 - Remove an existing item
+- Edit an item
 - Mark an item completed/incompleted
 - Mark all items checked/unchecked
 - Show all/active/completed items
