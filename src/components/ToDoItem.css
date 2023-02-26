@@ -94,4 +94,10 @@
   .itemContainer {
     width: auto;
   }
+  .listItemText {
+    margin: -5px 12px 12px 18px;
+  }
+  .removeItemButton {
+    margin-top: 8px;
+  }
 }

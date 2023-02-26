@@ -63,3 +63,10 @@
 .markAllCompleted:hover {
   color: #af5b5e;
 }
+
+@media (max-width: 1024px) {
+  .markAllCompleted {
+    left: 0;
+    margin-top: 0;
+  }
+}
