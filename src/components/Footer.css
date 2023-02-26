@@ -1,0 +1,63 @@
+.footerContainer {
+  height: 2.3rem;
+  border: 1px rgb(212, 212, 212, 0.5) solid;
+}
+
+.footerContainer > ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0 20px;
+  color: rgb(138, 133, 133);
+  list-style: none;
+}
+
+.footerContainer > ul > li {
+  display: flex;
+  list-style: none;
+  margin-top: -3px;
+}
+
+.footerContainer > ul > li > a {
+  margin: 0 12px;
+  cursor: pointer;
+  z-index: 9;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 5px;
+  padding: 3px 7px;
+}
+
+.footerContainer > ul > li > a:hover {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+}
+
+.footerContainer > ul > li > a:focus {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+}
+
+.clearCompleted {
+  color: rgb(138, 133, 133);
+  cursor: pointer;
+  z-index: 9;
+}
+
+.footerContainer:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  overflow: hidden;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 20%), 0 8px 0 -3px #f6f6f6,
+    0 9px 1px -3px rgb(0 0 0 / 20%), 0 16px 0 -6px #f6f6f6,
+    0 17px 2px -6px rgb(0 0 0 / 20%);
+}
+
+.footerText {
+  margin-top: 60px;
+  font-size: 10px;
+  color: grey;
+  line-height: 5px;
+}

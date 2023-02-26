@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.todos-text {
+  font-size: 100px;
+  color: rgba(175, 47, 47, 0.15);
+  margin: 0;
+  font-weight: 400;
+}
+
+.notebookContainer {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.inputContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.inputContainer > input {
+  width: 100%;
+  height: 3rem;
+  border: 1px rgb(212, 212, 212, 0.5) solid;
+  font-size: 20px;
+  text-indent: 50px;
+}
+
+::placeholder {
+  color: rgb(134, 131, 131);
+  opacity: 0.5;
+  font-size: larger;
+  font-style: italic;
+}
+
+.enterItemInput {
+  border: none;
+}
+
+.enterItemInput:focus {
+  outline-offset: 0px;
+  outline: none;
+}
+
+.markAllCompleted {
+  transform: rotate(90deg);
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  margin-right: 12px;
+  color: #cc9a9a;
+  transition: color 0.3s ease-out;
+  position: absolute;
+  left: 18px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.markAllCompleted:hover {
+  color: #af5b5e;
+}
