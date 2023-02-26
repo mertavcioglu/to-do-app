@@ -66,11 +66,11 @@
 
 @media (max-width: 1024px) {
   .inputContainer > input {
-    border-bottom: 1px rgb(212, 212, 212, 0.5) solid;
+    border-bottom: none;
     margin-bottom: 5px;
   }
   .markAllCompleted {
     left: 0;
-    margin-top: 10px;
+    margin-top: 15px;
   }
 }

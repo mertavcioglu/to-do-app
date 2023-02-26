@@ -66,9 +66,10 @@
   .footerContainer {
     height: 2.8rem;
     border: none;
+    border: 1px rgb(212, 212, 212, 0.5) solid;
     margin-top: 5px;
   }
   .footerText {
-    margin-top: 45px;
+    margin-top: 40px;
   }
 }

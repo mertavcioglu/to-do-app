@@ -95,6 +95,7 @@
 @media (max-width: 1024px) {
   .itemContainer {
     width: auto;
+    border-bottom: none;
   }
   .listItemText {
     margin: -5px 12px 12px 18px;
