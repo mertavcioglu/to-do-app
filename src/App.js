@@ -53,7 +53,7 @@ function App() {
           />
         </div>
         <ToDoList items={items} setItems={setItems} removeItem={removeItem} />
-        <Footer items={items} setItems={setItems} removeItem={removeItem} />
+        <Footer items={items} setItems={setItems} />
       </div>
     </div>
   );

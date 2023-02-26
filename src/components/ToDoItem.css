@@ -31,8 +31,6 @@
 .listItemText:focus {
   border: none;
   margin: 0 12px 12px 18px;
-  /* outline-offset: 0px;
-  outline: none; */
 }
 
 .removeItemButton {
@@ -53,6 +51,7 @@
 }
 
 /* ************************** */
+
 .checkbox-wrapper-39 *,
 .checkbox-wrapper-39 *::before,
 .checkbox-wrapper-39 *::after {

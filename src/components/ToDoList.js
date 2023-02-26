@@ -1,6 +1,5 @@
 import React from "react";
 import ToDoItem from "./ToDoItem";
-import "./ToDoList.css";
 
 function ToDoList(props) {
   return (
@@ -10,7 +9,6 @@ function ToDoList(props) {
           key={index}
           item={item}
           id={index}
-          items={props.items}
           removeItem={() => props.removeItem(index)}
           setItems={props.setItems}
         />
