@@ -1,7 +1,5 @@
 # Simple To-do App
 
-https://mertavcioglu.github.io/to-do-app/
-
 You can do the following commands in this app:
 
 - Add a new item
